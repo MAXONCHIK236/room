@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans:wght@400;700&display=swap');
+
+* {
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+
+}
+
+header .mama {
+    display: flex;
+
+}
+
+.stroka {
+    border: solid black 4px;
+    height: 40px;
+    width: 268px;
+}
+
+.yop {
+    border: solid black 4px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+
+}
+
+.center {
+    padding-top: 20px;
+}
+
+h3 {
+
+    text-align: end;
+}
+
+.container .mama {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.container .mimi {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ihj {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    margin-left: 20px;
+}
+
+.papa {
+    margin-left: 20px;
+}
+
+
+
+.minecraft .ni {
+    margin-left: 10px;
+
+
+
+}
+
+.ft {
+    height: 50vh;
+    display: flex;
+
+    align-items: center;
+
+
+}
+
+.ft .left {
+
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 400;
+}
+
+.ft .right {
+    align-items: center;
+    font-size: medium;
+}
+
+.fl .nike {
+    margin: 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fl .left {
+    margin-left: 10px;
+}
+
+.fl .right {
+    margin-left: 10px;
+}
+
+a {
+    text-align: center;
+
+}
+
+
+.fh {
+    display: flex;
+
+    justify-content: center;
+
+    box-sizing: border-box;
+
+
+}
+
+
+
+.chum .top {
+    text-align: center;
+}
+
+.mike {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.mike img {
+    width: 50%;
+}
+
+.mike .left {
+    font-size: small;
+}
+
+.mike .center {
+    font-size: small;
+}
+
+.mike .right {
+    font-size: small;
+}
+
+.i {
+
+    text-align: center;
+    font-size: 46px;
+
+    align-items: center;
+}
+
+.u .left>h1 {
+    text-align: right;
+
+}
+
+.u .left>p {
+    text-align: right;
+    font-size: small;
+    align-items: top;
+
+}
+
+.nina .right {
+    margin-left: 700px;
+}
+
+
+
+.gydra {
+    text-align: right;
+}
+
+.gadra {
+
+
+    text-align: left;
+
+}
+
+
+
+
+
+
+
+
+.u .right>h1 {
+    text-align: left;
+
+}
+
+.u .right>p {
+    text-align: left;
+    font-size: small;
+    align-items: top;
+}
+
+#ty {
+    align-items: center
+}
+
+.bb {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around
+}
+
+.text {
+    text-align: center;
+    font-size: x-large;
+}
+
+.you {
+    margin-top: 40px;
+    text-align: center;
+}
+
+button {
+
+    background-color: green;
+}
+
+.leack {
+    background-color: gray;
+
+}
+
+.leack .left {
+    display: flex;
+    margin-left: 30px;
+}
+
+#burger {
+    display: none;
+}
+
+
+
+@media(max-width:576px) {
+    .container .mama {
+        display: none;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    .main {
+        height: 09vh;
+    }
+
+    .left>h1 {
+        font-size: 46px;
+        text-align: start;
+    }
+
+    .right>p {
+        font-size: 16px;
+    }
+
+    .nike {
+        padding: 0 auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        height: 100%;
+
+
+    }
+
+    .fl img {
+        width: 200%;
+    }
+
+    .fh a {
+        font-size: xx-small;
+    }
+
+    .fh {
+        margin-right: 50px;
+    }
+
+    .minecraft img {
+        width: 80%;
+    }
+
+    .fit img {
+        width: 100%;
+    }
+
+   
+
+    .mike img {
+        margin: 0%;
+        width: 40%;
+        height: auto;
+    }
+
+    .mike {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .papa img {
+        width: 100%;
+    }
+
+    .i {
+        font-size: 46px;
+    }
+
+    .rep {
+        right: 10px;
+        font-size: x-small;
+
+    }
+
+    .u {
+        display: flex;
+        justify-content: column;
+    }
+
+    .u img {
+        width: 30%;
+    }
+
+    .y img {
+        width: 78%;
+    }
+
+    .fk img {
+
+        width: 30px;
+    }
+
+    .chum {
+        width: 80%;
+    }
+
+    .papa img {
+        width: 75%;
+        margin-right: 30px;
+    }
+
+    .i {
+        text-align: left;
+    }
+
+    .box {
+        width: 283px;
+    }
+
+    .bb {
+        display: flex;
+        align-items: flex-start;
+
+    }
+
+    .text {
+        font-size: small;
+    }
+
+}
